@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Github Repository Easy Delete",
+    "version": "1.0.0",
+    "description": "Helps to delete a Github repository safely",
+    "content_scripts": [
+        {
+            "js": [
+                "setInputs.js"
+            ],
+            "matches": [
+                "https://github.com/*/*/settings"
+            ]
+        }
+    ]
+}
